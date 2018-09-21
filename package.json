@@ -1,0 +1,30 @@
+{
+  "name": "reant-cli",
+  "version": "1.0.2",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "react-router",
+    "redux",
+    "antd",
+    "ant design",
+    "cli"
+  ],
+  "author": "chenmr925",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0"
+  },
+  "bin": {
+    "reant": "./bin/index.js"
+  },
+  "description": "to create a basic web project with react, react-router, redux, ant design for PC",
+  "repository": "https://github.com/chenmr925/reant-cli.git",
+  "files": [
+    "bin/*",
+    "template/*",
+    "package.json",
+    "README.md"
+  ]
+}
